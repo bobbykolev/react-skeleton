@@ -1,0 +1,21 @@
+{
+  "name": "react-webpack-setup",
+  "description":"react with webpack setup",
+  "version": "0.0.1",
+  "main": "app/main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base dist/ --hot",
+    "deploy": "SET NODE_ENV=production webpack -p"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+  	"webpack":"~1.8.10",
+  	"webpack-dev-server":"~1.8.2",
+  	"jsx-loader":"~0.13.1",
+  	"node-sass":"*",
+  	"sass-loader":"*",
+  	"css-loader":"*",
+  	"style-loader":"*"
+  }
+}
